@@ -11,11 +11,14 @@
   {%- if site.youtube_username -%}<li><a href="https://youtube.com/{{ site.youtube_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg> <span class="username">{{ site.youtube_username| escape }}</span></a></li>{%- endif -%}
   {%- if site.googleplus_username -%}<li><a href="https://plus.google.com/{{ site.googleplus_username| escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#googleplus' | relative_url }}"></use></svg> <span class="username">{{ site.googleplus_username| escape }}</span></a></li>{%- endif -%}
   {%- if site.rss -%}<li><a href="{{ 'feed.xml' | relative_url }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg> <span>{{ site.rss | escape }}</span></a></li>{%- endif -%}
-{%- if site.strava_username -%}
+  {%- if site.strava_username -%}
   <li>
-<a href="https://www.strava.com/athletes/{{ site.strava_username }}">
-  <i class="fab fa-strava"></i> <span class="username">{{ site.strava_username }}</span>
-</a>
+    <a href="https://www.strava.com/athletes/{{ site.strava_username }}">
+      <svg class="svg-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M15.387 17.944l-2.089-4.116h-3.065L15.387 24l5.15-10.172h-3.066m-7.008-5.599l2.836 5.598h4.172L10.463 0l-7 13.828h4.169"/>
+      </svg>
+      <span class="username">{{ site.strava_username }}</span>
+    </a>
   </li>
-{%- endif -%}
+  {%- endif -%}
 </ul>
