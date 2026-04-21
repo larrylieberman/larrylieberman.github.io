@@ -11,12 +11,11 @@
   {%- if site.youtube_username -%}<li><a href="https://youtube.com/{{ site.youtube_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg> <span class="username">{{ site.youtube_username| escape }}</span></a></li>{%- endif -%}
   {%- if site.googleplus_username -%}<li><a href="https://plus.google.com/{{ site.googleplus_username| escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#googleplus' | relative_url }}"></use></svg> <span class="username">{{ site.googleplus_username| escape }}</span></a></li>{%- endif -%}
   {%- if site.rss -%}<li><a href="{{ 'feed.xml' | relative_url }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg> <span>{{ site.rss | escape }}</span></a></li>{%- endif -%}
-  {%- if site.minima.social_links.strava -%}
-    <li>
-      <a href="https://www.strava.com/athletes/{{ site.minima.social_links.strava | cgi_escape | escape }}" title="{{ site.minima.social_links.strava | escape }}">
-        <i class="fa-brands fa-strava"></i>
-        <span class="username">{{ site.minima.social_links.strava | escape }}</span>
-      </a>
-    </li>
-  {%- endif -%}
+{%- if site.strava_username -%}
+  <li>
+<a href="https://www.strava.com/athletes/{{ site.strava_username }}">
+  <i class="fab fa-strava"></i> <span class="username">{{ site.strava_username }}</span>
+</a>
+  </li>
+{%- endif -%}
 </ul>
