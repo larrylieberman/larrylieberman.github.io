@@ -21,7 +21,7 @@
 title: Larry Lieberman
 email: ptaavs@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  CV and random musings of Larry Lieberman, semi-retired software product manager, erstwhile cyclist, and unlikely yogi.
+  CV and random musings of Larry Lieberman, erstwhile software product manager, high-striving but mid-tier cyclist, and unlikely yogi.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
