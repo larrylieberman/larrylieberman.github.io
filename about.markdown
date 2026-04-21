@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-
+CV and field notes of Larry Lieberman, erstwhile software product manager, high-striving but mid-tier cyclist, and unlikely yogi.
 <!-- 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
