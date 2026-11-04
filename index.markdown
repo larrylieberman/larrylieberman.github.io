@@ -5,9 +5,13 @@ permalink: /
 author_profile: true
 ---
 
-I'm a technical program leader and lawyer. I spent more than 25 years shipping software and platforms, most recently as a Principal TPM at Microsoft, where I led an Edge AI solution accelerator for hybrid edge/cloud manufacturing deployments. I'm now a full-time student, pursuing an LLM in Intellectual Property at the University of Washington School of Law.
+I'm trying to figure out how the law should deal with AI.
 
-My interests sit where AI, law, and public policy meet: how courts, regulators, and institutions can adopt AI responsibly, and what the rules should look like when the technology moves faster than the law.
+I started my career as a lawyer, then spent more than 25 years in technology, shipping software and platforms. Now I'm back in law school at the University of Washington, studying intellectual property and researching approaches to AI governance.
+
+My [CV](/cv/) is here, along with a page on [what I'm working on right now](/now/) and, eventually, some writing.
+
+Away from the screen, I ride a bike harder than my results justify.
 
 ## Start here
 
