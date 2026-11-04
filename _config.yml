@@ -23,7 +23,7 @@ email: ptaavs@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   CV and field notes
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://larrylieberman.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 linkedin_username:  llieberman
 github_username:  LarryLieberman
