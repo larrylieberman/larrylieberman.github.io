@@ -22,7 +22,7 @@ title: Larry Lieberman
 email: ptaavs@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   CV and field notes
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://larrylieberman.com" # the subpath of your site, e.g. /blog
 url: "https://larrylieberman.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 linkedin_username:  llieberman
