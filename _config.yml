@@ -29,7 +29,14 @@ linkedin_username:  llieberman
 github_username:  LarryLieberman
 strava_username:  855089
 # Build settings
-theme: minima
+
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: default   # try: air, dirt, mint, contrast, dark
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-include-cache
+
 plugins:
   - jekyll-feed
 
